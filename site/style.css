@@ -43,6 +43,8 @@ h2 {
     margin-left: 10px;
 }
 
+.author-link
+
 .container {
     width: 1140px;
     margin: 20px auto 0 auto;
@@ -71,7 +73,8 @@ h2 {
 
 .author-box img {
     height: 100px;
-    width: 100px;
+    width: auto;
+    border-radius: 50%;
     float: left;
 }
 

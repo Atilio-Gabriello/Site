@@ -16,7 +16,7 @@ body {
 }
 
 h1, h2 {
-    color: #00960b;
+    color: blue;
     
 }
 
@@ -24,7 +24,6 @@ h1 {
     font-size: 40px;
     margin-bottom: 20px;
 }
-
 
 h2 {
     font-size: 25px;
@@ -42,8 +41,6 @@ h2 {
     margin-top: 30px;
     margin-left: 10px;
 }
-
-.author-link
 
 .container {
     width: 1140px;
@@ -73,7 +70,7 @@ h2 {
 
 .author-box img {
     height: 100px;
-    width: auto;
+    width: 100px;
     border-radius: 50%;
     float: left;
 }

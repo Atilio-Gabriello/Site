@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgba(255, 255, 255, 0);
 }
 
 .clearfix:after {
@@ -12,7 +11,7 @@
 }
 
 body {
-    font-family: Helvetica Neue, Arial;
+    font-family: Cardo;
     font-size: 14px;
 }
 
@@ -21,13 +20,14 @@ p {
 }
 
 h1, h2 {
-    color: rgba(211, 13, 13, 0.747);
+    color: rgb(0, 94, 9);
     font-family: 'Times New Roman', Times, serif;
 }
 
 h1 {
     font-size: 75px;
     margin-bottom: 50px;
+    letter-spacing: 150%;
 }
 
 h2 {

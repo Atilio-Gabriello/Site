@@ -69,11 +69,13 @@ h2 {
 .author-box {
     padding-top: 20px;
     border-top: 1px solid #000000;
+    position: relative;
 }
 
 .other {
     margin-top: 40px;
     color: blue;
+    font-size: 22px;
 }
 
 .author-box img {
@@ -83,14 +85,8 @@ h2 {
     float: left;
 }
 
-.blog-post img {
-    height: 150px;
-    width: auto;
-}
-
-.data {
-    font-size: 22px;
+.date {
+    position: relative;
     float: right;
-    margin-top: 30px;
-    margin-left: 10px;
+    top: 5px;
 }

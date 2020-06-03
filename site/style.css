@@ -11,7 +11,7 @@
 }
 
 body {
-    font-family: Cardo;
+    font-family: Lato;
     font-size: 14px;
 }
 
@@ -20,8 +20,8 @@ p {
 }
 
 h1, h2 {
-    color: rgb(0, 94, 9);
-    font-family: 'Times New Roman', Times, serif;
+    color: #005e09;
+    : L;
 }
 
 h1 {
@@ -39,6 +39,7 @@ h2 {
     text-align: justify;
     margin-bottom: 20px;
     font-style: normal;
+    font-family: Lato;
 }
 
 .author-text {
@@ -76,6 +77,7 @@ h2 {
     margin-top: 40px;
     color: blue;
     font-size: 22px;
+    
 }
 
 .author-box img {

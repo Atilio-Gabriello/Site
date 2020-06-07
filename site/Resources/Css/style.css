@@ -269,14 +269,14 @@ header{
 
 .works-step div{
     color: #e67e22;
-    border: 2px solid #e67e22;
+    border: 1.5px solid #e67e22;
     float: left;
     border-radius: 90%;
     height: 55px;
     width: 55px;
     text-align: center;
     padding: 5px;
-    font-size: 150%;
+    font-size: 175%;
     margin-right: 15px;
 }
 

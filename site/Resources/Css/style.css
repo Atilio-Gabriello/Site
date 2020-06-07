@@ -106,11 +106,12 @@ h2:after{
 }
 .city-icon{
     float: left;
-    font-size: 120%;
     width: 30px;
-    text-align: center;
-    margin-right: 2px;
     color: #e67e22;
+    font-size: 110%;
+    line-height: 110%;
+    vertical-align: middle;
+    margin-right: 3px;
 }
 
 /*----Links----*/

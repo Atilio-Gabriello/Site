@@ -67,7 +67,7 @@ h2{
 }
 
 h3{
-    font-size: 110%;
+    font-size: 118%;
     margin-bottom: 15px;
 }
 
@@ -103,6 +103,27 @@ h2:after{
     margin-bottom: 10px;
     margin-left: 30%;
     margin-top: 15px;
+}
+.city-icon{
+    float: left;
+    font-size: 120%;
+    width: 30px;
+    text-align: center;
+    margin-right: 2px;
+    color: #e67e22;
+}
+
+/*----Links----*/
+
+a,a:visited{
+    color: #cf6d17;
+    text-decoration: none;
+}
+
+a:hover,
+a:active{
+    color: #e67e22;
+    transition:color 0.2s;
 }
 
 /*----Buttons----*/
@@ -285,4 +306,23 @@ header{
     width: auto;
     margin-right: 10px;
     border-radius: 5%;
+}
+
+/*-------------------------------------------*/
+/*Cities*/
+/*--------------------------------------------*/
+
+.city{
+    border-bottom: 1px solid #e67e22;
+}
+
+.city-img{
+    height: auto;
+    display: block;
+    margin-bottom: 5px;
+    width: 100%;   
+}
+
+.city-feature{
+    margin-bottom: 5px;
 }

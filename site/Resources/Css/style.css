@@ -475,3 +475,40 @@ input[type=checkbox]{
 *:focus{
     outline: none;
 }
+
+/*-------------------------------------------*/
+/*Footer*/
+/*--------------------------------------------*/
+
+footer{
+    background-color: rgb(29, 29, 29);
+    padding: 10px;
+}
+
+.footer-nav{
+    list-style: none;
+    float: left;
+}
+
+.social-links{
+    list-style: none;
+    float: right;  
+}
+
+.footer-nav li,
+.social-links li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child{
+    margin-right: 0;
+}
+
+.txt-footer{
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}

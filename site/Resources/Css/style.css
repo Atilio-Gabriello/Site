@@ -254,16 +254,17 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: rgba(255, 255, 255, 0.85);
     box-shadow: 0 2px 2px rgb(209, 209, 209);
+    z-index: 9999;
 }
 
-.main-nav{
+.sticky .main-nav{
     margin-top: 18px;
 }
 
-.main-nav li a:link,
-.main-nav li a:visited{
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited{
     padding: 16px 0;
     color: #555;
 }

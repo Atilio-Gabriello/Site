@@ -1,4 +1,3 @@
-# Site
- My first site
- 
- In this site you'll be able to find some infos about me
+Site usado para aprender HTML5 e CSS3.
+
+!!Omnifood é uma empresa fictícia!!

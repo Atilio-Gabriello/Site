@@ -88,10 +88,59 @@
         margin: 0 0 4% 0;
     }
 
+    /*Navegaçao*/
+
     .main-nav{
         display: none;
+        float: left;
+        margin-top: 25px;
+        margin-left: 25px;  
     }
 
+    .main-nav li{
+      display: block; 
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited{
+        display: block;
+        border: 0;
+        padding: 5px 0; 
+    }
+
+    
+    .mobile-nav-icon{
+        display: inline-block;
+    }
+
+    .sticky .mobile-nav-icon{
+        margin-top: 10px;
+    }
+    
+    .sticky .main-nav{
+        margin-top: 10px;
+    }
+
+    .sticky .mobile-nav-icon ion-icon{
+        color: black;
+    }
+    
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited{
+        padding: 10px 0;
+        color: #555;
+    }
+    
+    .sticky .logo-white{
+        display: none;
+    }
+    
+    .sticky .logo-black{
+        display: block;
+    }
+    
+    /*Headers*/
+    
     h1{
         font-size: 180%;
     }
@@ -99,34 +148,39 @@
     h2{
         font-size: 150%;
     }
-
+    
     .long-copy{
         width: 100%;
         margin-left: 0%;
     }
-
+    
     .works-step{
         margin-bottom: 20px;
     }
-
+    
     .works-step:last-of-type{
         margin-bottom: 20px;
     }
-
+    
     .works-step div{
-        height: 40px;
-        width: 40px;
-        padding: 15px;
+        height: 45px;
+        width: 45px;
+        padding: 10px;
         margin-right: 4px;
         font-size: 120%;
+        text-align: center;
     }
-
+    
+    .icon-big{
+        margin-left: 0;
+    }
+    
     .steps-box:first-child{
         text-align: center;
     }
 
     .app-screen{
-        width: 40px;
+        width: 250px;
     }
 }
 

@@ -83,6 +83,10 @@ h2:after{
     margin-top: 30px;
 }
 
+h2.meals-header:after{
+    background-color: transparent;
+}
+
 /*----Paragraphs----*/
 
 .long-copy{

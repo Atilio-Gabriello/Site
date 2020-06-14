@@ -568,7 +568,7 @@ footer{
 
 .footer-nav li,
 .social-links li{
-    display: inline-block;
+    display: inline-flex;
     margin-right: 20px;
 }
 

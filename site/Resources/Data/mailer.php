@@ -20,7 +20,7 @@
 
     $Email_headers = "From: $Name <$Email>";
 
-    mail($recipient, $subject, $Email_content, $Email_headers){
+    mail($recipient, $subject, $Email_content, $Email_headers)
 
     header("Location: #");
 ?>

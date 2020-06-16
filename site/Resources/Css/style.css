@@ -71,6 +71,7 @@ h2{
 h3{
     font-size: 118%;
     margin-bottom: 15px;
+    margin-top: auto;
 }
 
 h2:after{
@@ -85,6 +86,7 @@ h2:after{
 
 h2.meals-header:after{
     background-color: transparent;
+    margin-top: 0;
 }
 
 /*----Paragraphs----*/
@@ -363,22 +365,27 @@ header{
 
 .works-step{
     margin-bottom: 50px;
+    display: flex;
+    align-items: center;
 }
 .works-step:last-of-type{
-    margin-bottom: 80px;
+    margin-bottom: 70px;
 }
 
 .works-step div{
     color: #e67e22;
     border: 1.5px solid #e67e22;
-    float: left;
-    border-radius: 90%;
+    text-align: center;
     height: 55px;
     width: 55px;
-    text-align: center;
     padding: 5px;
     font-size: 175%;
-    margin-right: 15px;
+    margin-right: 10px;
+    border-radius: 90%;
+    -webkit-border-radius: 90%;
+    -moz-border-radius: 90%;
+    -ms-border-radius: 90%;
+    -o-border-radius: 90%;
 }
 
 .btn-app img{

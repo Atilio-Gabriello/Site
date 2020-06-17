@@ -1,3 +1,4 @@
+alert('Omnifood é uma empresa fictícia!!');
 $(document).ready(function(){
   
   /*Sticky nav*/
